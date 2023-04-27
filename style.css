@@ -59,19 +59,24 @@ a:hover {
 /* header main */
 .header {
     background-color: #2F303A;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
     color: white;
-    font-size: 40px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
 }
 
 .header button {
@@ -86,7 +91,65 @@ h1 {
     height: 50px;
 }
 
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.header-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.header-link {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+nav ul {
+    width: 280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
 /* features */
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1140px;
+    margin: 94px auto;
+}
+
+.features ul {
+    width: 1140px;
+    padding: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.feature-block {
+    width: 270px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
 .feature-h {
     font-weight: 700;
     font-size: 14px;
@@ -103,7 +166,6 @@ h1 {
     letter-spacing: 0.03em;
 }
 
-
 /* what are we doing */
 .our-work h2 {
     font-weight: 700;
@@ -113,7 +175,6 @@ h1 {
     letter-spacing: 0.03em;
     color: #212121;
 }
-
 
 /* our team */
 .our-team {
