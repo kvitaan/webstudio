@@ -249,7 +249,8 @@ footer h2 {
 }
 .logo-footer {
     color: white;
-    font-family: 'Raleway', sans-serif
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
 }
 
 .adress {
@@ -259,8 +260,20 @@ footer h2 {
 
 footer {
     background-color: #2F303A;
-    height: 260px;
+    padding: 60px 215px;
 }
+
+
+address {
+    height: 81px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 20px 0;
+    font-style: normal;
+}
+
+
 
 /* portfolio */
 
