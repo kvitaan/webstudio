@@ -53,12 +53,15 @@ a:hover {
 }
 
 .nav-contact-item {
+    width: 180px;
     font-weight: 500;
-    font-size: 14px;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    margin-left: 10px;
 }
+
+
 
 .nav-contact-item, .feature-p, .member-job, .footer-contact {
     color: #757575;
@@ -67,6 +70,7 @@ a:hover {
 /* header main */
 .header {
     background-color: #2F303A;
+    background-image: url(./img/promo-bg.png);
     height: 600px;
     margin: 0 auto;
     display: flex;
@@ -124,9 +128,10 @@ hr {
 }
 
 .header-link {
-    width: 300px;
+    width: 340px;
     display: flex;
     justify-content: space-between;
+    align-items:center;
 }
 
 
